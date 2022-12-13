@@ -28,7 +28,7 @@ Creating .Desktop
 
 From main directory:
 ```
-mv KDE2Text.desktop ~/.local/share/applications
+mv KDE2Text.desktop ~/.local/share/applications/KDE2Text.desktop
 cd ~/.local/share/applications
 sudo nano KDE2Text.desktop
 ```
