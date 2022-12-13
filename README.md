@@ -24,6 +24,8 @@ curl -L https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture
 unzip Capture2Text.zip
 rm Capture2Text.zip
 ```
+
+*NOTE: The next section should work, but just tried it on a fresh install and it didn't work. Keeping out of interest 
 Creating .Desktop
 
 From main directory:
@@ -41,5 +43,20 @@ Press "Add Application" and select the KDE2Text application
 Finally, Select KDE2Text in the applications menu and apply any shortcut key. (The default Capture2Text shortcut is Alt+Q) 
 The program will automatically determine the vertical option should be used, so only one shortcut is required.
 ```
+*NOTE: END Archived Section
 
+Creating .Desktop
+```
+Right click on application menu icon on taskbar
+Click "Edit Applications..."
+Click "New Item" on menu bar
+In Name: KDE2Text
+In program line: python
+In Command-Line Arguments: __main__.py
+Unclick "Enable launch feedback"
+Save
+Optionally, drag and drop KDE2Text Item into one of the categories on the left.
+Open ~/.local/share/applications/KDE2Text.desktop in text editor
+Set PATH variable to KDE2Text base directory
+```
 
