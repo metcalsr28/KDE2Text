@@ -1,22 +1,22 @@
 # KDE2Text
 A hacky solution for utilizing Capture2Text effectively on Linux
 
-Installation
+## Installation
 
-Native Dependencies
+### Native Dependencies
 ```
 Wine
 Python
 Spectacle
 ```
 
-Required Python Packages
+### Required Python Packages
 ```
 python -m pip install opencv-contrib-python
 python -m pip install pyperclip
 ```
 
-Capture2Text
+### Capture2Text
 ```
 mkdir res
 cd res
@@ -25,11 +25,11 @@ unzip Capture2Text.zip
 rm Capture2Text.zip
 ```
 
-*NOTE: The next section should work, but just tried it on a fresh install and it didn't work. Keeping out of interest.
+## The next section should work, but just tried it on a fresh install and it didn't work. Keeping out of interest.
 
-Creating .Desktop
+### Creating .Desktop
 
-From main directory:
+#### From main directory:
 ```
 mv KDE2Text.desktop ~/.local/share/applications/KDE2Text.desktop
 cd ~/.local/share/applications
@@ -38,9 +38,9 @@ sudo nano KDE2Text.desktop
 Inside KDE2Text.desktop, change PATH variable to your KDE2Text directory
 
 
-*NOTE: END Archived Section
+## End  archived Section
 
-Creating .Desktop
+### Creating .Desktop
 ```
 Right click on application menu icon on taskbar
 Click "Edit Applications..."
@@ -55,7 +55,7 @@ Open ~/.local/share/applications/KDE2Text.desktop in text editor
 Set PATH variable to KDE2Text base directory
 ```
 
-Running as a keyboard shortcut
+## Running as a keyboard shortcut
 ```
 Open System Settings -> Shortcuts
 Press "Add Application" and select the KDE2Text application
