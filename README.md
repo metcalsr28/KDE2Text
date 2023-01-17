@@ -1,5 +1,7 @@
-# Py2Text
-A hacky solution for utilizing Capture2Text effectively on Linux
+# KDE2Text
+A hacky solution for utilizing Capture2Text effectively on Linux. This project utilizes Linux native tools to implement the functionality that wine is currently unable to replicate. Capture2Text is a powerful tool and it's great being able to run it alongside Linux's already powerful native tools such as gazou. 
+
+This project does not require you to run KDE to utilize, but it currently relies on Spectacle as dependency, and the installation for Spectacle will bring with it a lot of KDE's background dependencies. Granted, you've probably picked up most of them up without realizing at some point anyway.
 
 ## Installation
 
