@@ -1,4 +1,4 @@
-# KDE2Text
+# Py2Text
 A hacky solution for utilizing Capture2Text effectively on Linux
 
 ## Installation
